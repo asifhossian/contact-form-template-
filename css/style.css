@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    background-color: #EEF3FA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS for form */
+
+.full_form {
+    margin: 10px;
+    padding-left: 20px;
+    ;
+    outline: 0;
+
+}
+
+.input_textflid {
+    height: 520px;
+    width: 48%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    background-color: #EEF3FA;
+}
+
+.radioButton_chackbox {
+    height: 520px;
+    width: 48%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #EEF3FA;
+}
+
+.submit_button {
+    height: 200px;
+    width: 80%;
+    /* float: left;
+    margin-left: 10px;
+    margin-right: 10px; */
+    margin: 10px auto;
+    background-color: #EEF3FA;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.border {
+    border-top: 1px solid #76CF76;
+    border-left: 1px solid #76CF76;
+    border-bottom: 1px solid #76CF76;
+    border-radius: 8px;
+
+}
+
+input[type=text] {
+    height: 50px;
+    width: 95%;
+    border: 1px solid #76CF76;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input[type=email] {
+    height: 50px;
+    width: 95%;
+    border: 1px solid #76CF76;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+
+input[type=number] {
+    height: 50px;
+    width: 95%;
+    border: 1px solid #76CF76;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+
+.input_txt {
+    height: 200px;
+    width: 95%;
+    resize: none;
+    border: 1px solid #76CF76;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.question1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+.rd {
+    padding: 0;
+    font-size: 20px;
+    color: #76CF76;
+}
+
+input[type=radio] {
+    height: 23px;
+    width: 3%;
+
+}
+
+input[type=checkbox] {
+    height: 23px;
+    width: 3%;
+
+}
+
+.border2 {
+    border-top: 1px solid #76CF76;
+
+
+}
+
+.pbtn {
+    text-align: center;
+
+}
+
+.btn {
+    height: 78px;
+    width: 45%;
+    background-color: #76CF76;
+    border-radius: 8px;
+    ;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+}
